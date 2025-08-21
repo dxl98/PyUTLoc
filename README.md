@@ -4,9 +4,9 @@ PyUTLoc is implemented as a modular Python package designed to address the chall
 1. PyPI Installation (Recommended)
 Run the following command in the terminal to install the latest stable version:
 
-pip install Pyutloc==1.0
+  pip install Pyutloc==1.0
 
-3. Basic Usage Example
+2. Basic Usage Example
 To illustrate PyUTLoc’s workflow, we provide a minimal example of transforming a place name ("Addis Ababa") to a unified DD1 coordinate, then to UTM1 format:
 
 # Step 1: Import core modules

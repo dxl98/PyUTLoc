@@ -1,0 +1,128 @@
+[
+  {
+    "source": "data/osm/beijing-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/guangdong-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/shanghai-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/kanto-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/south-korea-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/malaysia-singapore-brunei-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/ontario-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/new-york-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/norcal-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/socal-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/washington-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/antarctica-260204-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/centro-oeste-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/new-zealand-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/australia-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/central-fed-district-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/berlin-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/ile-de-france-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/greater-london-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/south-africa-260203-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  },
+  {
+    "source": "data/osm/egypt-260202-free.shp.zip",
+    "prj_member": "gis_osm_pois_free_1.prj",
+    "epsg": 4326,
+    "crs_name": "WGS 84"
+  }
+]

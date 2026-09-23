@@ -1,0 +1,107 @@
+[
+  {
+    "path": "data/osm/beijing-260202-free.shp.zip",
+    "bytes": 69437291,
+    "sha256": "88d0dc1e2c26f0e2dac7049471f497f67b7e554ce2602345121265fdc304e5b2"
+  },
+  {
+    "path": "data/osm/guangdong-260202-free.shp.zip",
+    "bytes": 294026891,
+    "sha256": "4237d15ef253001e238a34f7995ebdd99c9113518cc2f4609e831ae5a3e65d45"
+  },
+  {
+    "path": "data/osm/shanghai-260202-free.shp.zip",
+    "bytes": 44591263,
+    "sha256": "c05c01181809025131abe431ebdbfcb0af3f75023d998761429738f1577d6e76"
+  },
+  {
+    "path": "data/osm/kanto-260202-free.shp.zip",
+    "bytes": 884734128,
+    "sha256": "7ed7f6083e2be1f2ee0e311a15d7e6029d0ad0f0427bb895cbfbb06cc9d0da7f"
+  },
+  {
+    "path": "data/osm/south-korea-260202-free.shp.zip",
+    "bytes": 531533768,
+    "sha256": "19ae530f5f2b726b5fa4bc28fa1d7897d77b50b7ede2233c4e4085e4e1e856b4"
+  },
+  {
+    "path": "data/osm/malaysia-singapore-brunei-260203-free.shp.zip",
+    "bytes": 473737108,
+    "sha256": "9f345dd3fcdc34cf14e436d5646a51a1b818581c753b34337190c1154ad29bdf"
+  },
+  {
+    "path": "data/osm/ontario-260203-free.shp.zip",
+    "bytes": 1760517361,
+    "sha256": "76ea80b5e4ba6b8353a3ae13c6504357de9cc437fa099e65d8e66dba4cb5ac3a"
+  },
+  {
+    "path": "data/osm/new-york-260203-free.shp.zip",
+    "bytes": 794653177,
+    "sha256": "cfabfe295781bd4347a9a14a525f17cb3c7aacbe3f39709b1b6f8b114236ce79"
+  },
+  {
+    "path": "data/osm/norcal-260203-free.shp.zip",
+    "bytes": 1080987953,
+    "sha256": "a3ba5b5310d81b23ef49958167b18cfa5c39f9467937cc161178c7872db9020d"
+  },
+  {
+    "path": "data/osm/socal-260203-free.shp.zip",
+    "bytes": 1151317594,
+    "sha256": "29fdd6762a8cd844de5611b39db90372ec77f918ba5038eea353913ff5104ccc"
+  },
+  {
+    "path": "data/osm/washington-260203-free.shp.zip",
+    "bytes": 690166058,
+    "sha256": "9431fdeecab201a73d528ad613227ac37019c6dfa5e0635fd82d163654186536"
+  },
+  {
+    "path": "data/osm/antarctica-260204-free.shp.zip",
+    "bytes": 27890042,
+    "sha256": "71568c3e98f28e9fd08c2d8e9b39bb8010b6217e20227ad0ea8febaf2f915f9c"
+  },
+  {
+    "path": "data/osm/centro-oeste-260203-free.shp.zip",
+    "bytes": 306337564,
+    "sha256": "55cbe501789d1900246ab6de5657331d0dcaf8952a9728a64bcf1b863bd5aa19"
+  },
+  {
+    "path": "data/osm/new-zealand-260203-free.shp.zip",
+    "bytes": 723686269,
+    "sha256": "0ddff5c833dcc68e59110c766e2983553b61d2e78093ab7ccf0b3abc0fe8481c"
+  },
+  {
+    "path": "data/osm/australia-260203-free.shp.zip",
+    "bytes": 1744883491,
+    "sha256": "f2ee32a9387a5f1b52637099e8f7eab4eba8bffc121dda8a67c9781996daee62"
+  },
+  {
+    "path": "data/osm/central-fed-district-260203-free.shp.zip",
+    "bytes": 1576873513,
+    "sha256": "a1da3456ab21929b3244fc75e514255e837d6c8a44b7f7369105b6d4632ffd7a"
+  },
+  {
+    "path": "data/osm/berlin-260202-free.shp.zip",
+    "bytes": 133212692,
+    "sha256": "ea9365bb454baceddbd98717d1d69b1b87726cc97f14e3bf8585db9fe690b957"
+  },
+  {
+    "path": "data/osm/ile-de-france-260202-free.shp.zip",
+    "bytes": 528654989,
+    "sha256": "d377e4a933eb29395ce777d0d5c01ad5a3e3070141882b0603ed7edcef2c1225"
+  },
+  {
+    "path": "data/osm/greater-london-260202-free.shp.zip",
+    "bytes": 194971668,
+    "sha256": "d032a01a65b98a314d794c86d3a078feff03c9142505c3f49fb452200d67d285"
+  },
+  {
+    "path": "data/osm/south-africa-260203-free.shp.zip",
+    "bytes": 987908030,
+    "sha256": "e08131f0f0926de0488905040276df19bbc2579ce1ed0a55dbadade2b3152c31"
+  },
+  {
+    "path": "data/osm/egypt-260202-free.shp.zip",
+    "bytes": 288458062,
+    "sha256": "bbfc3f8dcaaba5b517847438fd1c09820f04013966b5700400a2c0ba7d8b444b"
+  }
+]

@@ -1,0 +1,3 @@
+include README.md CHANGELOG.md LICENSE requirements-evaluated.txt
+recursive-include tests *.py
+recursive-include experiments *.py

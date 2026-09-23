@@ -1,0 +1,291 @@
+Run_ID,API_Name,Scope,Total_Requests,Success_Count,Success_Rate(%),Avg_Response_Time(s),Status_Codes
+1,BaiduV3,Regional (CN),6,6,100.0,0.144,{'200': 6}
+1,BANFrance,Regional (FR),16,16,100.0,1.32,{'200': 16}
+1,DataBC,Regional (CA),8,8,100.0,1.819,{'200': 8}
+1,Gaode,Regional (CN),6,6,100.0,0.071,{'200': 6}
+1,Geocodio,"Regional (US,CA)",39,37,94.87,1.861,"{'200': 37, 'GeocoderQueryError': 2}"
+1,GeoOttawa,Regional (CA),8,0,0.0,3.49,{'200': 8}
+1,Tencent,Regional (CN),6,0,0.0,0.103,{'ParseError/NoResult': 6}
+1,Tianditu,Regional (CN),6,5,83.33,0.05,"{'200': 5, '400': 1}"
+1,ArcGIS,Global,50,50,100.0,1.799,{'200': 50}
+1,DistanceMatrix,Global,50,49,98.0,1.523,"{'200': 49, 'ProxyError': 1}"
+1,Geoapify,Global,50,50,100.0,1.373,{'200': 50}
+1,Geocode.xyz,Global,50,0,0.0,1.374,"{'ParseError/NoResult': 49, 'ProxyError': 1}"
+1,GeocodeEarth,Global,50,50,100.0,3.244,{'200': 50}
+1,GeocodeFarm,Global,50,47,94.0,3.312,"{'200': 47, 'SSLError': 1, 'ProxyError': 1, '404': 1}"
+1,Geocodify,Global,50,49,98.0,2.153,"{'200': 49, 'SSLError': 1}"
+1,Geokeo,Global,50,49,98.0,1.966,"{'200': 49, 'NoResult': 1}"
+1,Geolake,Global,50,46,92.0,2.195,"{'200': 46, 'NoResult': 4}"
+1,GeoNames,Global,50,49,98.0,1.741,"{'200': 49, 'Unknown': 1}"
+1,Gisgraphy,Global,50,0,0.0,2.397,"{'401': 49, 'ProxyError': 1}"
+1,LocationIQ,Global,50,48,96.0,1.376,"{'200': 48, 'Unknown': 2}"
+1,Mapbox,Global,50,49,98.0,1.26,"{'200': 49, 'Unknown': 1}"
+1,MapMaker,Global,50,46,92.0,1.523,"{'200': 46, 'ProxyError': 1, 'ParseError/NoResult': 1, 'SSLError': 2}"
+1,MapTiler,Global,50,50,100.0,1.66,{'200': 50}
+1,OpenCage,Global,50,50,100.0,1.518,{'200': 50}
+1,OpenMeteo,Global,50,47,94.0,2.166,"{'200': 47, 'ParseError/NoResult': 3}"
+1,Nominatim,Global,50,0,0.0,2.542,{'403': 50}
+1,Photon,Global,50,50,100.0,2.218,{'200': 50}
+1,Stadia,Global,50,50,100.0,1.402,{'200': 50}
+1,TomTom,Global,50,50,100.0,1.792,{'200': 50}
+2,BaiduV3,Regional (CN),6,6,100.0,0.144,{'200': 6}
+2,BANFrance,Regional (FR),16,16,100.0,1.427,{'200': 16}
+2,DataBC,Regional (CA),8,8,100.0,2.261,{'200': 8}
+2,Gaode,Regional (CN),6,6,100.0,0.047,{'200': 6}
+2,Geocodio,"Regional (US,CA)",39,37,94.87,1.784,"{'200': 37, 'GeocoderQueryError': 2}"
+2,GeoOttawa,Regional (CA),8,0,0.0,3.295,{'200': 8}
+2,Tencent,Regional (CN),6,0,0.0,0.088,{'ParseError/NoResult': 6}
+2,Tianditu,Regional (CN),6,5,83.33,0.045,"{'200': 5, '400': 1}"
+2,ArcGIS,Global,50,50,100.0,1.431,{'200': 50}
+2,DistanceMatrix,Global,50,50,100.0,1.49,{'200': 50}
+2,Geoapify,Global,50,50,100.0,1.13,{'200': 50}
+2,Geocode.xyz,Global,50,0,0.0,1.267,{'ParseError/NoResult': 50}
+2,GeocodeEarth,Global,50,50,100.0,1.322,{'200': 50}
+2,GeocodeFarm,Global,50,49,98.0,1.53,"{'200': 49, '404': 1}"
+2,Geocodify,Global,50,50,100.0,1.268,{'200': 50}
+2,Geokeo,Global,50,48,96.0,1.126,"{'200': 48, 'NoResult': 2}"
+2,Geolake,Global,50,47,94.0,1.505,"{'200': 47, 'NoResult': 3}"
+2,GeoNames,Global,50,50,100.0,1.11,{'200': 50}
+2,Gisgraphy,Global,50,0,0.0,1.469,{'401': 50}
+2,LocationIQ,Global,50,49,98.0,0.976,"{'200': 49, 'Unknown': 1}"
+2,Mapbox,Global,50,50,100.0,0.657,{'200': 50}
+2,MapMaker,Global,50,49,98.0,0.953,"{'200': 49, 'ParseError/NoResult': 1}"
+2,MapTiler,Global,50,50,100.0,1.102,{'200': 50}
+2,OpenCage,Global,50,50,100.0,1.176,{'200': 50}
+2,OpenMeteo,Global,50,46,92.0,1.866,"{'200': 46, 'ParseError/NoResult': 3, 'SSLError': 1}"
+2,Nominatim,Global,50,0,0.0,2.182,{'403': 50}
+2,Photon,Global,50,50,100.0,1.86,{'200': 50}
+2,Stadia,Global,50,50,100.0,0.873,{'200': 50}
+2,TomTom,Global,50,50,100.0,1.395,{'200': 50}
+3,BaiduV3,Regional (CN),6,6,100.0,0.149,{'200': 6}
+3,BANFrance,Regional (FR),16,16,100.0,1.539,{'200': 16}
+3,DataBC,Regional (CA),8,8,100.0,1.708,{'200': 8}
+3,Gaode,Regional (CN),6,6,100.0,0.055,{'200': 6}
+3,Geocodio,"Regional (US,CA)",39,37,94.87,1.723,"{'200': 37, 'GeocoderQueryError': 2}"
+3,GeoOttawa,Regional (CA),8,0,0.0,3.214,{'200': 8}
+3,Tencent,Regional (CN),6,0,0.0,0.093,{'ParseError/NoResult': 6}
+3,Tianditu,Regional (CN),6,5,83.33,0.049,"{'200': 5, '400': 1}"
+3,ArcGIS,Global,50,50,100.0,1.38,{'200': 50}
+3,DistanceMatrix,Global,50,50,100.0,1.676,{'200': 50}
+3,Geoapify,Global,50,50,100.0,1.361,{'200': 50}
+3,Geocode.xyz,Global,50,0,0.0,1.454,"{'SSLError': 2, 'ParseError/NoResult': 48}"
+3,GeocodeEarth,Global,50,50,100.0,1.36,{'200': 50}
+3,GeocodeFarm,Global,50,50,100.0,1.642,{'200': 50}
+3,Geocodify,Global,50,50,100.0,1.266,{'200': 50}
+3,Geokeo,Global,50,49,98.0,1.192,"{'200': 49, 'GeocoderUnavailable': 1}"
+3,Geolake,Global,50,47,94.0,1.726,"{'200': 47, 'NoResult': 3}"
+3,GeoNames,Global,50,50,100.0,1.21,{'200': 50}
+3,Gisgraphy,Global,50,0,0.0,1.466,{'401': 50}
+3,LocationIQ,Global,50,50,100.0,1.038,{'200': 50}
+3,Mapbox,Global,50,49,98.0,0.939,"{'200': 49, 'Unknown': 1}"
+3,MapMaker,Global,50,48,96.0,1.122,"{'200': 48, 'SSLError': 2}"
+3,MapTiler,Global,50,50,100.0,1.044,{'200': 50}
+3,OpenCage,Global,50,50,100.0,1.261,{'200': 50}
+3,OpenMeteo,Global,50,47,94.0,2.022,"{'200': 47, 'ParseError/NoResult': 3}"
+3,Nominatim,Global,50,0,0.0,2.29,{'403': 50}
+3,Photon,Global,50,50,100.0,2.007,{'200': 50}
+3,Stadia,Global,50,50,100.0,1.054,{'200': 50}
+3,TomTom,Global,50,50,100.0,1.421,{'200': 50}
+4,BaiduV3,Regional (CN),6,6,100.0,0.122,{'200': 6}
+4,BANFrance,Regional (FR),16,16,100.0,1.31,{'200': 16}
+4,DataBC,Regional (CA),8,8,100.0,2.32,{'200': 8}
+4,Gaode,Regional (CN),6,6,100.0,0.047,{'200': 6}
+4,Geocodio,"Regional (US,CA)",39,37,94.87,1.68,"{'200': 37, 'GeocoderQueryError': 2}"
+4,GeoOttawa,Regional (CA),8,0,0.0,2.912,{'200': 8}
+4,Tencent,Regional (CN),6,0,0.0,0.087,{'ParseError/NoResult': 6}
+4,Tianditu,Regional (CN),6,5,83.33,0.045,"{'200': 5, '400': 1}"
+4,ArcGIS,Global,50,50,100.0,1.429,{'200': 50}
+4,DistanceMatrix,Global,50,50,100.0,1.507,{'200': 50}
+4,Geoapify,Global,50,50,100.0,1.176,{'200': 50}
+4,Geocode.xyz,Global,50,0,0.0,1.14,{'ParseError/NoResult': 50}
+4,GeocodeEarth,Global,50,50,100.0,1.208,{'200': 50}
+4,GeocodeFarm,Global,50,50,100.0,1.495,{'200': 50}
+4,Geocodify,Global,50,50,100.0,1.183,{'200': 50}
+4,Geokeo,Global,50,47,94.0,1.09,"{'200': 47, 'GeocoderUnavailable': 1, 'NoResult': 2}"
+4,Geolake,Global,50,46,92.0,1.569,"{'200': 46, 'NoResult': 4}"
+4,GeoNames,Global,50,50,100.0,1.336,{'200': 50}
+4,Gisgraphy,Global,50,0,0.0,1.435,{'401': 50}
+4,LocationIQ,Global,50,50,100.0,0.911,{'200': 50}
+4,Mapbox,Global,50,50,100.0,0.635,{'200': 50}
+4,MapMaker,Global,50,50,100.0,0.98,{'200': 50}
+4,MapTiler,Global,50,50,100.0,0.944,{'200': 50}
+4,OpenCage,Global,50,50,100.0,1.244,{'200': 50}
+4,OpenMeteo,Global,50,42,84.0,1.858,"{'200': 42, 'ParseError/NoResult': 7, 'SSLError': 1}"
+4,Nominatim,Global,50,0,0.0,2.051,{'403': 50}
+4,Photon,Global,50,50,100.0,1.767,{'200': 50}
+4,Stadia,Global,50,50,100.0,0.753,{'200': 50}
+4,TomTom,Global,50,50,100.0,1.149,{'200': 50}
+5,BaiduV3,Regional (CN),6,6,100.0,0.137,{'200': 6}
+5,BANFrance,Regional (FR),16,16,100.0,1.138,{'200': 16}
+5,DataBC,Regional (CA),8,8,100.0,2.119,{'200': 8}
+5,Gaode,Regional (CN),6,6,100.0,0.055,{'200': 6}
+5,Geocodio,"Regional (US,CA)",39,37,94.87,1.515,"{'GeocoderQueryError': 2, '200': 37}"
+5,GeoOttawa,Regional (CA),8,0,0.0,2.777,{'200': 8}
+5,Tencent,Regional (CN),6,0,0.0,0.083,{'ParseError/NoResult': 6}
+5,Tianditu,Regional (CN),6,5,83.33,0.053,"{'400': 1, '200': 5}"
+5,ArcGIS,Global,50,50,100.0,1.072,{'200': 50}
+5,DistanceMatrix,Global,50,50,100.0,1.393,{'200': 50}
+5,Geoapify,Global,50,50,100.0,1.06,{'200': 50}
+5,Geocode.xyz,Global,50,0,0.0,1.02,{'ParseError/NoResult': 50}
+5,GeocodeEarth,Global,50,50,100.0,1.223,{'200': 50}
+5,GeocodeFarm,Global,50,50,100.0,1.331,{'200': 50}
+5,Geocodify,Global,50,50,100.0,0.983,{'200': 50}
+5,Geokeo,Global,50,48,96.0,0.897,"{'200': 48, 'NoResult': 2}"
+5,Geolake,Global,50,46,92.0,1.314,"{'200': 46, 'NoResult': 4}"
+5,GeoNames,Global,50,50,100.0,1.0,{'200': 50}
+5,Gisgraphy,Global,50,0,0.0,1.242,{'401': 50}
+5,LocationIQ,Global,50,50,100.0,0.772,{'200': 50}
+5,Mapbox,Global,50,50,100.0,0.582,{'200': 50}
+5,MapMaker,Global,50,50,100.0,0.873,{'200': 50}
+5,MapTiler,Global,50,50,100.0,0.827,{'200': 50}
+5,OpenCage,Global,50,50,100.0,1.176,{'200': 50}
+5,OpenMeteo,Global,50,50,100.0,1.829,{'200': 50}
+5,Nominatim,Global,50,0,0.0,2.086,{'403': 50}
+5,Photon,Global,50,50,100.0,1.7,{'200': 50}
+5,Stadia,Global,50,50,100.0,0.682,{'200': 50}
+5,TomTom,Global,50,50,100.0,1.086,{'200': 50}
+6,BaiduV3,Regional (CN),6,6,100.0,0.135,{'200': 6}
+6,BANFrance,Regional (FR),16,16,100.0,1.11,{'200': 16}
+6,DataBC,Regional (CA),8,8,100.0,1.782,{'200': 8}
+6,Gaode,Regional (CN),6,6,100.0,0.045,{'200': 6}
+6,Geocodio,"Regional (US,CA)",39,37,94.87,1.449,"{'200': 37, 'GeocoderQueryError': 2}"
+6,GeoOttawa,Regional (CA),8,0,0.0,2.439,{'200': 8}
+6,Tencent,Regional (CN),6,0,0.0,0.069,{'ParseError/NoResult': 6}
+6,Tianditu,Regional (CN),6,5,83.33,0.05,"{'200': 5, '400': 1}"
+6,ArcGIS,Global,50,50,100.0,1.054,{'200': 50}
+6,DistanceMatrix,Global,50,50,100.0,1.352,{'200': 50}
+6,Geoapify,Global,50,49,98.0,1.006,"{'200': 49, 'SSLError': 1}"
+6,Geocode.xyz,Global,50,0,0.0,0.982,{'ParseError/NoResult': 50}
+6,GeocodeEarth,Global,50,50,100.0,1.129,{'200': 50}
+6,GeocodeFarm,Global,50,50,100.0,1.196,{'200': 50}
+6,Geocodify,Global,50,50,100.0,0.871,{'200': 50}
+6,Geokeo,Global,50,48,96.0,0.982,"{'200': 48, 'NoResult': 2}"
+6,Geolake,Global,50,48,96.0,1.251,"{'200': 48, 'NoResult': 2}"
+6,GeoNames,Global,50,50,100.0,0.902,{'200': 50}
+6,Gisgraphy,Global,50,0,0.0,1.179,{'401': 50}
+6,LocationIQ,Global,50,50,100.0,0.764,{'200': 50}
+6,Mapbox,Global,50,50,100.0,0.574,{'200': 50}
+6,MapMaker,Global,50,49,98.0,0.929,"{'200': 49, 'SSLError': 1}"
+6,MapTiler,Global,50,49,98.0,0.769,"{'200': 49, 'GeocoderServiceError': 1}"
+6,OpenCage,Global,50,50,100.0,1.157,{'200': 50}
+6,OpenMeteo,Global,50,46,92.0,1.735,"{'200': 46, 'ParseError/NoResult': 4}"
+6,Nominatim,Global,50,0,0.0,2.027,{'403': 50}
+6,Photon,Global,50,50,100.0,1.648,{'200': 50}
+6,Stadia,Global,50,50,100.0,0.66,{'200': 50}
+6,TomTom,Global,50,49,98.0,1.084,"{'200': 49, '404': 1}"
+7,BaiduV3,Regional (CN),6,6,100.0,0.135,{'200': 6}
+7,BANFrance,Regional (FR),16,16,100.0,1.088,{'200': 16}
+7,DataBC,Regional (CA),8,8,100.0,1.795,{'200': 8}
+7,Gaode,Regional (CN),6,6,100.0,0.057,{'200': 6}
+7,Geocodio,"Regional (US,CA)",39,37,94.87,1.451,"{'200': 37, 'GeocoderQueryError': 2}"
+7,GeoOttawa,Regional (CA),8,0,0.0,2.725,{'200': 8}
+7,Tencent,Regional (CN),6,0,0.0,0.073,{'ParseError/NoResult': 6}
+7,Tianditu,Regional (CN),6,5,83.33,0.049,"{'400': 1, '200': 5}"
+7,ArcGIS,Global,50,50,100.0,1.112,{'200': 50}
+7,DistanceMatrix,Global,50,50,100.0,1.318,{'200': 50}
+7,Geoapify,Global,50,50,100.0,0.989,{'200': 50}
+7,Geocode.xyz,Global,50,0,0.0,0.963,{'ParseError/NoResult': 50}
+7,GeocodeEarth,Global,50,50,100.0,1.168,{'200': 50}
+7,GeocodeFarm,Global,50,49,98.0,1.327,"{'200': 49, '404': 1}"
+7,Geocodify,Global,50,50,100.0,0.843,{'200': 50}
+7,Geokeo,Global,50,49,98.0,0.864,"{'200': 49, 'NoResult': 1}"
+7,Geolake,Global,50,48,96.0,1.24,"{'200': 48, 'NoResult': 2}"
+7,GeoNames,Global,50,50,100.0,0.919,{'200': 50}
+7,Gisgraphy,Global,50,0,0.0,1.32,{'401': 50}
+7,LocationIQ,Global,50,50,100.0,0.73,{'200': 50}
+7,Mapbox,Global,50,50,100.0,0.511,{'200': 50}
+7,MapMaker,Global,50,49,98.0,0.839,"{'200': 49, 'ParseError/NoResult': 1}"
+7,MapTiler,Global,50,50,100.0,0.755,{'200': 50}
+7,OpenCage,Global,50,50,100.0,1.111,{'200': 50}
+7,OpenMeteo,Global,50,47,94.0,1.701,"{'200': 47, 'ParseError/NoResult': 3}"
+7,Nominatim,Global,50,0,0.0,2.008,{'403': 50}
+7,Photon,Global,50,50,100.0,1.639,{'200': 50}
+7,Stadia,Global,50,49,98.0,0.862,"{'200': 49, 'SSLError': 1}"
+7,TomTom,Global,50,50,100.0,1.067,{'200': 50}
+8,BaiduV3,Regional (CN),6,6,100.0,0.132,{'200': 6}
+8,BANFrance,Regional (FR),16,16,100.0,1.068,{'200': 16}
+8,DataBC,Regional (CA),8,8,100.0,1.515,{'200': 8}
+8,Gaode,Regional (CN),6,6,100.0,0.056,{'200': 6}
+8,Geocodio,"Regional (US,CA)",39,37,94.87,1.437,"{'200': 37, 'GeocoderQueryError': 2}"
+8,GeoOttawa,Regional (CA),8,0,0.0,2.669,{'200': 8}
+8,Tencent,Regional (CN),6,0,0.0,0.087,{'ParseError/NoResult': 6}
+8,Tianditu,Regional (CN),6,5,83.33,0.045,"{'200': 5, '400': 1}"
+8,ArcGIS,Global,50,50,100.0,1.003,{'200': 50}
+8,DistanceMatrix,Global,50,50,100.0,1.297,{'200': 50}
+8,Geoapify,Global,50,50,100.0,1.068,{'200': 50}
+8,Geocode.xyz,Global,50,0,0.0,0.959,{'ParseError/NoResult': 50}
+8,GeocodeEarth,Global,50,50,100.0,1.051,{'200': 50}
+8,GeocodeFarm,Global,50,50,100.0,1.286,{'200': 50}
+8,Geocodify,Global,50,50,100.0,0.83,{'200': 50}
+8,Geokeo,Global,50,46,92.0,0.786,"{'200': 46, 'NoResult': 4}"
+8,Geolake,Global,50,48,96.0,1.229,"{'200': 48, 'NoResult': 2}"
+8,GeoNames,Global,50,50,100.0,0.886,{'200': 50}
+8,Gisgraphy,Global,50,0,0.0,1.16,{'401': 50}
+8,LocationIQ,Global,50,50,100.0,0.714,{'200': 50}
+8,Mapbox,Global,50,50,100.0,0.496,{'200': 50}
+8,MapMaker,Global,50,50,100.0,0.851,{'200': 50}
+8,MapTiler,Global,50,50,100.0,0.822,{'200': 50}
+8,OpenCage,Global,50,50,100.0,1.115,{'200': 50}
+8,OpenMeteo,Global,50,47,94.0,1.705,"{'200': 47, 'ParseError/NoResult': 3}"
+8,Nominatim,Global,50,0,0.0,2.051,"{'403': 49, 'SSLError': 1}"
+8,Photon,Global,50,50,100.0,1.624,{'200': 50}
+8,Stadia,Global,50,50,100.0,0.649,{'200': 50}
+8,TomTom,Global,50,50,100.0,1.044,{'200': 50}
+9,BaiduV3,Regional (CN),6,6,100.0,0.124,{'200': 6}
+9,BANFrance,Regional (FR),16,16,100.0,1.032,{'200': 16}
+9,DataBC,Regional (CA),8,8,100.0,1.449,{'200': 8}
+9,Gaode,Regional (CN),6,6,100.0,0.053,{'200': 6}
+9,Geocodio,"Regional (US,CA)",39,37,94.87,1.407,"{'200': 37, 'GeocoderQueryError': 2}"
+9,GeoOttawa,Regional (CA),8,0,0.0,2.39,{'200': 8}
+9,Tencent,Regional (CN),6,0,0.0,0.086,{'ParseError/NoResult': 6}
+9,Tianditu,Regional (CN),6,5,83.33,0.049,"{'200': 5, '400': 1}"
+9,ArcGIS,Global,50,50,100.0,0.995,{'200': 50}
+9,DistanceMatrix,Global,50,50,100.0,1.313,{'200': 50}
+9,Geoapify,Global,50,50,100.0,0.937,{'200': 50}
+9,Geocode.xyz,Global,50,0,0.0,1.017,"{'ParseError/NoResult': 49, 'SSLError': 1}"
+9,GeocodeEarth,Global,50,50,100.0,1.159,{'200': 50}
+9,GeocodeFarm,Global,50,50,100.0,1.325,{'200': 50}
+9,Geocodify,Global,50,50,100.0,0.825,{'200': 50}
+9,Geokeo,Global,50,49,98.0,0.793,"{'NoResult': 1, '200': 49}"
+9,Geolake,Global,50,48,96.0,1.228,"{'200': 48, 'NoResult': 2}"
+9,GeoNames,Global,50,50,100.0,0.949,{'200': 50}
+9,Gisgraphy,Global,50,0,0.0,1.155,{'401': 50}
+9,LocationIQ,Global,50,50,100.0,0.705,{'200': 50}
+9,Mapbox,Global,50,50,100.0,0.52,{'200': 50}
+9,MapMaker,Global,50,50,100.0,0.862,{'200': 50}
+9,MapTiler,Global,50,50,100.0,0.762,{'200': 50}
+9,OpenCage,Global,50,50,100.0,1.107,{'200': 50}
+9,OpenMeteo,Global,50,44,88.0,1.739,"{'200': 44, 'ParseError/NoResult': 6}"
+9,Nominatim,Global,50,0,0.0,1.985,{'403': 50}
+9,Photon,Global,50,50,100.0,1.626,{'200': 50}
+9,Stadia,Global,50,50,100.0,0.635,{'200': 50}
+9,TomTom,Global,50,50,100.0,1.04,{'200': 50}
+10,BaiduV3,Regional (CN),6,6,100.0,0.183,{'200': 6}
+10,BANFrance,Regional (FR),16,16,100.0,1.029,{'200': 16}
+10,DataBC,Regional (CA),8,8,100.0,1.391,{'200': 8}
+10,Gaode,Regional (CN),6,6,100.0,0.055,{'200': 6}
+10,Geocodio,"Regional (US,CA)",39,37,94.87,1.401,"{'200': 37, 'GeocoderQueryError': 2}"
+10,GeoOttawa,Regional (CA),8,0,0.0,2.451,{'200': 8}
+10,Tencent,Regional (CN),6,0,0.0,0.082,{'ParseError/NoResult': 6}
+10,Tianditu,Regional (CN),6,5,83.33,0.048,"{'200': 5, '400': 1}"
+10,ArcGIS,Global,50,50,100.0,1.078,{'200': 50}
+10,DistanceMatrix,Global,50,50,100.0,1.31,{'200': 50}
+10,Geoapify,Global,50,50,100.0,1.096,{'200': 50}
+10,Geocode.xyz,Global,50,0,0.0,0.936,{'ParseError/NoResult': 50}
+10,GeocodeEarth,Global,50,50,100.0,1.114,{'200': 50}
+10,GeocodeFarm,Global,50,49,98.0,1.298,"{'200': 49, '404': 1}"
+10,Geocodify,Global,50,50,100.0,0.842,{'200': 50}
+10,Geokeo,Global,50,49,98.0,0.776,"{'200': 49, 'NoResult': 1}"
+10,Geolake,Global,50,45,90.0,1.244,"{'200': 45, 'NoResult': 5}"
+10,GeoNames,Global,50,50,100.0,0.936,{'200': 50}
+10,Gisgraphy,Global,50,0,0.0,1.161,{'401': 50}
+10,LocationIQ,Global,50,50,100.0,0.744,{'200': 50}
+10,Mapbox,Global,50,50,100.0,0.513,{'200': 50}
+10,MapMaker,Global,50,48,96.0,0.8,"{'200': 48, 'ParseError/NoResult': 2}"
+10,MapTiler,Global,50,50,100.0,0.816,{'200': 50}
+10,OpenCage,Global,50,50,100.0,1.112,{'200': 50}
+10,OpenMeteo,Global,50,40,80.0,1.697,"{'200': 40, 'ParseError/NoResult': 10}"
+10,Nominatim,Global,50,0,0.0,2.014,{'403': 50}
+10,Photon,Global,50,50,100.0,1.623,{'200': 50}
+10,Stadia,Global,50,50,100.0,0.654,{'200': 50}
+10,TomTom,Global,50,49,98.0,1.04,{'200': 50}

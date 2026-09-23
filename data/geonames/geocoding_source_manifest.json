@@ -1,0 +1,12 @@
+[
+  {
+    "path": "data/archive/all_geocoding_detailed_results_500.csv",
+    "bytes": 291508,
+    "sha256": "957b95d8c6f171e858e238dfcc5d975fb91d753bf32f0ba1889d381dc08566b0"
+  },
+  {
+    "path": "data/archive/all_geocoding_detailed_results_openaddresses_500.csv",
+    "bytes": 301617,
+    "sha256": "4578ea33760d34b14a99721bd640dd7236a238f80f1bb166c8be01c0a565d274"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cores": 24,
+  "ram_gb": 31.34290313720703,
+  "seed": 20260914,
+  "timing_excludes": "input generation, disk IO, package imports",
+  "rss_includes": "runtime and loaded inputs",
+  "memory_sampling_s": 0.005,
+  "repeats": 3,
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "pyproj": "3.8.0",
+    "pygeodesy": "26.9.9",
+    "mgrs": "1.5.4",
+    "utm": "0.9.0",
+    "openlocationcode": "1.0.1",
+    "geohash2": "1.1",
+    "maidenhead": "1.8.0",
+    "psutil": "7.2.2",
+    "scipy": "1.18.1"
+  }
+}

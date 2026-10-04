@@ -1,3 +1,9 @@
+# 2.0.1
+
+- Declare the `packaging` dependency required by the mgrs backend,
+  which upstream does not declare itself; without it, MGRS/USNG decoding
+  fails on minimal installations.
+
 # 2.0.0 — validated normalization release
 
 - Retain the annotation/geocoding/transformation architecture and 55 historical labels.

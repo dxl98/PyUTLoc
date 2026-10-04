@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PyUTLoc"
-version = "2.0.0"
+version = "2.0.1"
 description = "Validated normalization of heterogeneous coordinate representations"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [{name = "Xiaoliang Dai"}]
-dependencies = ["pyproj>=3.6", "pygeodesy", "mgrs", "utm", "openlocationcode", "geohash2", "maidenhead"]
+dependencies = ["pyproj>=3.6", "pygeodesy", "mgrs", "utm", "openlocationcode", "geohash2", "maidenhead", "packaging"]
 
 [project.optional-dependencies]
 geocoding = ["geopy>=2.4"]

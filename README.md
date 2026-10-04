@@ -29,10 +29,6 @@ python -m pip install .
 python -m pip install ".[geocoding,test]"
 ```
 
-`requirements-evaluated.txt` records the versions used in the evaluated
-environment (Windows 11 / Python 3.12.14). The broader constraints in
-`pyproject.toml` are not a claim that every combination was tested.
-
 ## Normalize a coordinate
 
 ```python
@@ -133,77 +129,5 @@ service. Apply the actual endpoint's policy, quotas, retention rights and
 fees. Caching is opt-in and has a TTL. Query context and provider order
 participate in the cache identity. The client provides a trace, bounded
 retries and fallback; it does not guarantee uptime or geocoding accuracy.
-The bundled experiments make **no public geocoding calls**.
 
-## Reproduce the experiments
-
-From the repository root, with the dependencies installed:
-
-```powershell
-python -m pytest tests -q
-python experiments/run_experiments.py --root .
-python experiments/independent_checks.py --root .
-python experiments/benchmark.py --root .
-python experiments/registry_examples.py --root .
-```
-
-The root can be any directory preserving this layout:
-
-```text
-data/
-  archive/     archived provider-result CSVs, the frozen legacy corpus,
-               and annotation_v3.py (the legacy parsing baseline)
-  osm/         sampled OSM holdout points and source manifests
-  geonames/    source manifests for the GeoNames inputs
-  environment.json   evaluated environment and dependency record
-outputs/       derived results are written here
-```
-
-The first script supports `--stage geocoding`, `coordinate`,
-`robustness`, `faults`, `gazetteer` or `downstream`. The coordinate and
-downstream stages reuse the sampled points in
-`data/osm/osm_holdout_points.csv`; the remaining OSM extracts and the
-GeoNames dumps they were sampled from are external downloads (see
-`data/README.md` for sources, checksums and licences) and are not
-redistributed here. The scale benchmark takes several minutes and records
-three fresh-process runs per condition.
-
-`registry_examples.py` generates the 55 registry examples and validates
-each using its recorded CRS, axis, and format arguments. It writes
-`registry_examples.csv` and `registry_examples.json` to `outputs/`
-without random sampling.
-
-Evaluation boundaries:
-
-- OSM positions are real data; the heterogeneous strings are generated
-  test representations.
-- 30,000 independent numerical cases use 10,000 source positions and
-  three separate constructions, not 30,000 independent locations.
-- Geocoding CSVs are archived snapshots without sufficient timestamps and
-  raw responses for historical replay. They do not establish current
-  service availability.
-- The fault test uses a virtual clock; its waiting times are not measured
-  network latency.
-- The downstream fixture starts from known identical entities. It
-  demonstrates ingestion and coordinate linkage, not improved general
-  entity resolution or AI prediction.
-- Absolute benchmark RSS includes runtime and preloaded data. CSV fields
-  ending `_mb` contain MiB (bytes / 2^20).
-
-See the accompanying manuscript and its Supplementary Materials for full
-metrics, denominators and limitations. Source records retain their
-GeoNames, OpenStreetMap and OpenAddresses attribution and licence
-conditions; this repository does not redistribute their complete raw
-archives.
-
-## Compatibility and development
-
-`pyutloc.annotation.get_coordinate_type`,
-`pyutloc.transformation.DD1toOthers`, `OtherstoDD1` and
-`SpecialCoordsToDD1` preserve familiar entry points. Their strict metadata
-requirements are intentional; this is not a drop-in replacement for
-undocumented CRS assumptions. The historical `USGN` spelling is accepted
-as a USNG alias. New code should prefer the typed result API.
-
-PyPI page: <https://pypi.org/project/PyUTLoc/>. See `CHANGELOG.md` and
-`LICENSE`.
+PyPI page: <https://pypi.org/project/PyUTLoc/>. See `CHANGELOG.md` and `LICENSE`.

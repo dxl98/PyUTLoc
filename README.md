@@ -19,7 +19,7 @@ record with explicit diagnostics.
 Requires Python 3.10 or later.
 
 ```powershell
-python -m pip install PyUTLoc==2.0.0rc1
+python -m pip install PyUTLoc
 ```
 
 Or from this source directory:
